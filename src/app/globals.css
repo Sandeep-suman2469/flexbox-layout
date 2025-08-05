@@ -3,19 +3,13 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  width: 200vh;
-  margin: 50px;
-  font-size: 30px;
-  text-align: center;
+  width: 100vh; 
 }
 
 .header{
-  height: 20%;
-  width: 200vh;
-  background: rgb(32, 226, 32);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 10%;
+  width: 100vh;
+  background: rgb(108, 245, 66);
   
 }
 
@@ -23,35 +17,32 @@
   display: flex;
   flex-direction: row;
   height: 80%;
-  width: 200vh;
+  width: 100vh;
 
 }
 .article{
   
   background-color: white;
   height: 100%;
-  width: 120vh;
+  width: 70%;
 }
 
 .nav{
-  background: rgb(236, 236, 198);
+  background: rgb(230, 230, 198);
   height: 100%;
-  width: 40vh;
+  width: 15%;
 }
 
 .aside{
-  background-color: rgb(130, 240, 240);
+  background-color: rgb(238, 245, 237);
   height: 100%;
-  width: 40vh;
+  width: 15%;
 }
 
 
 .footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 20%;
-  width: 200vh;
-  background: rgb(32, 226, 32);
-}
+  height: 10%;
+  width: 100vh;
+  background: rgb(108, 245, 66);
+} 
 
